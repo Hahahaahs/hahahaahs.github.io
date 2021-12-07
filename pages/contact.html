@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Final Project</title>
+    <!-- <link rel="stylesheet" href="../css/main.css"> -->
+    <link rel="stylesheet" href="../css/contact.css">
+
+    <script>
+
+        function error() {
+            window.alert("Sorry, your message wasn't sent! Please use email instead.");
+        }
+    </script>
+</head>
+
+
+
+
+<body>
+
+
+    <header>
+        <h1>Haahs Photography</h1>
+
+        <nav id="topNav">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="photography.html">Photography</a></li>
+                <li><a href="cinematography.html">Cinematography</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="media">
+        <nav>
+            <a href="https://www.linkedin.com/">LinkedIn<u><</u></a><br>
+            <a href="https://www.github.com/">Github<u><</u></a><br>
+            <a href="404.html">Instagram<u><</u></a>
+        </nav>
+    </div>
+
+    <main id="anchor-contact">
+
+
+
+        <div id="title">
+            <article>
+                <h1>Haahs</h1>
+
+                <p>CONTACT</p>
+                <br>
+                <br>
+                <address>
+                    s-krishna.haahs@lwtech.edu<br>
+                    555-555-5555<br>
+                    1234 Main St<br>
+                    Pacific Ocean 99999
+                    
+                </address>
+            </article>
+            <form>
+                <label>Leave me a message!</label><br><br>
+                <label for="firstName">First name:</label><br><br>
+                <input type="text" id="firstName" name="firstName"><br><br>
+                <label for="lastName">Last name:</label><br><br>
+                <input type="text" id="lastName" name="lastName"><br><br>
+                <label for="email">Email:</label><br><br>
+                <input type="text" id="email" name="email"><br><br>
+                <label for="message">Enter your message:</label><br><br>
+                <input type="text" id="message" name="message" placeholder="Sorry, This feature is under construction."><br>
+                <input type="submit" value="SUBMIT" id="submit" onclick="error()">
+            </form>
+
+        </div>
+</main>
+
+</body>
+
+</html>
